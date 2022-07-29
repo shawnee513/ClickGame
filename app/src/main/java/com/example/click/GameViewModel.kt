@@ -47,4 +47,18 @@ class GameViewModel: ViewModel() {
         //Start the timer
         timer.start()
     }
+
+    //Gain a point because you clicked a button
+    fun gainPoint(){
+        _score.value = _score.value?.plus(1)
+        _currentButton.value = (1..4).random()
+        _scoreColor.value = "purple"
+    }
+
+    //Lose a point because you missed a button
+    fun losePoint(){
+        _score.value = _score.value?.plus(-1)
+        _currentButton.value = (1..4).random()
+        _scoreColor.value = "red"
+    }
 }

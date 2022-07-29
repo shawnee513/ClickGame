@@ -9,4 +9,8 @@
     <string name="click_button_text">Click Here</string>
     <string name="placeholder_time">00:00</string>
     <string name="placeholder_score">0</string>
+    <string name="label_text">Final Score</string>
+    <string name="gamble_button_text">Gamble Your Points</string>
+    <string name="play_again_text">Play Again</string>
+    <string name="title_button_text">Return to Title</string>
 </resources>
